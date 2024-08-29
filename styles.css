@@ -1,21 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html {
+    background-color: white;
+}
+
 body {
     margin: 0 auto;
+    padding: 0 100px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    color: white;
+    font-family: Roboto;
+    background-color: #1F2937;
+    width: 520px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    width: 530px;
-    padding: 10px 110px;
     align-items: center;
-    color: white;
-    font-family: Roboto;
+    width: 100%;
+    padding: 10px 0;
+}
+
+header, .presentationSection {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
+}
+.presentationSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentationSection p {
+    font-size: 8px;
+    color: #E5E7EB;
+}
+
+.imgPlaceholder {
+    background-color: gray;
+    padding: 60px;
 }
 
 .logoText {
@@ -31,4 +65,17 @@ nav ul {
     display: flex;
     gap: 10px;
     list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    border: none; 
+    font-size: 10px;
+    padding: 5px 20px;
 }

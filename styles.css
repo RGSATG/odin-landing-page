@@ -72,9 +72,10 @@ button {
     background-color: blue;
     border-radius: 3px;
     color: white;
-    border: none; 
     font-size: 10px;
     padding: 5px 20px;
+    border-style: none;
+    text-wrap: nowrap;
 }
 
 .infoSection {
@@ -111,11 +112,32 @@ button {
     font-size: 20px;
     padding: 0 50px;
     font-weight: lighter;
-    font-style: italic;
+    font-style: italic<;
 }
 
 .quoteSection p:last-of-type {
     text-align: end;
     font-weight: bold;
     font-size: 15px;
+}
+
+.actionSection {
+    background-color: white;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 50px; 
+}
+
+.actionSection h3 {
+    margin: 0;
+}
+
+.actionSection button{
+    border: 2px solid white;
 }

@@ -28,6 +28,13 @@ header {
     padding: 10px 100px;
 }
 
+footer {
+    background-color: #1F2937;
+    width: 520px;
+    padding: 0 100px;
+    text-align: center;
+}
+
 header, .presentationSection {
     background-color: #1F2937;
     margin: 0;
